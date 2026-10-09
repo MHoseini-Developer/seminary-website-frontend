@@ -1,0 +1,757 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <title>جزئیات وبلاگ های مدرسه علمیه</title>
+    <link rel="icon" type="image/png" href="assets/images/logo/faviconlogo.png" />
+    <link rel="stylesheet" href="assets/css/rt-plugins.css" />
+    <link rel="stylesheet" href="assets/css/app.css" />
+    <link rel="stylesheet" href="assets/css/custom.css" />
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+  </head>
+
+  <body class="font-medium text-gray text-lg leading-[27px]">
+    <!-- [if IE]> <p class="browserupgrade">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="https://browsehappy.com/">upgrade your browser</a> to improve
+        your experience and security.
+    </p> <![endif] -->
+
+    <header class="site-header header-normal top-0 bg-white z-[9] rt-sticky">
+      <div class="main-header py-8">
+        <div class="container">
+          <div class="flex items-center justify-between flex-wrap">
+            <a
+              href="index.html"
+              class="brand-logo flex-none lg:ml-10 md:ml-0"
+            >
+              <img src="assets/images/logo/madrese-elmieh-hazrat-maryam.svg" alt="مدرسه علمیه حضرت مریم س"
+            /></a>
+            <div class="flex items-center flex-1">
+              <div class="flex-1 main-menu lg:relative xl:ml-[74px] ml-6">
+                <ul>
+                  <li>
+                    <a href="index.html">خانه</a>
+                  </li>
+                  <li>
+                    <a href="about.html">درباره ما</a>
+                  </li>
+                  <li>
+                    <a href="blog.html">وبلاگ</a>
+                  </li>
+                  <li>
+                    <a href="projects.html">آشیانه جوان</a>
+                  </li>
+                </ul>
+                <div class="lg:block hidden">
+                  <div class="border border-gray rounded-md h-[46px] modal-search">
+                    <input type="text" class="block w-full rounded-md h-full border-none ring-0 focus:outline-none focus:ring-0" placeholder="جستجو..." />
+                  </div>
+                </div>
+              </div>
+              <div class="flex-none flex space-x-[18px]">
+                <button type="button" class="md:w-[56px] md:h-[56px] h-10 w-10 ml-4 rounded bg-[#F8F8F8] flex flex-col items-center justify-center modal-trigger">
+                  <img src="assets/images/svg/search.svg" alt="جستجو" />
+                </button>
+                <div class="block lg:hidden">
+                  <button type="button" class="text-3xl md:w-[56px] ml-4 h-10 w-10 md:h-[56px] rounded bg-[#F8F8F8] flex flex-col items-center justify-center menu-click">
+                    <iconify-icon icon="cil:hamburger-menu" rotate="180deg"></iconify-icon>
+                  </button>
+                </div>
+                <div class="hidden lg:block">
+                  <a href="contact.html" class="btn btn-primary py-[15px] px-8"
+                    >تماس باما</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="lg:hidden block mt-4">
+            <div class="border border-gray rounded-md h-[46px] modal-search">
+              <input type="text" class="block w-full rounded-md h-full border-none ring-0 focus:outline-none focus:ring-0" placeholder="جستجو..." />
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!------------ MobileMenu ----------->
+    <div
+      class="openmobile-menu fixed top-0 h-screen pt-10 pb-6 bg-white shadow-box2 w-[320px] overflow-y-auto flex flex-col z-[999]"
+    >
+      <div class="flex justify-between px-6 flex-none">
+        <a href="index.html" class="brand-logo flex-none mr-10">
+          <img src="assets/images/logo/logo.svg" alt="" />
+        </a>
+        <span class="text-3xl text-black cursor-pointer rt-mobile-menu-close">
+          <iconify-icon icon="fe:close"></iconify-icon>
+        </span>
+      </div>
+      <div class="mobile-menu mt-6 flex-1">
+        <ul class="menu-active-classes">
+          <li class="menu-item-has-children">
+            <a href="#">خانه</a>
+            <ul class="sub-menu">
+              <li>
+                <a href="index.html">خانه یک</a>
+              </li>
+              <li>
+                <a href="index2.html">خانه دو</a>
+              </li>
+              <li>
+                <a href="index3.html">خانه سه</a>
+              </li>
+            </ul>
+          </li>
+          <li class="menu-item-has-children">
+            <a href="#">صفحات</a>
+            <ul class="sub-menu">
+              <li>
+                <a href="about.html">درباره ۱</a>
+              </li>
+              <li>
+                <a href="about2.html">درباره ۲</a>
+              </li>
+              <li>
+                <a href="instructor.html">مدرس ۱</a>
+              </li>
+              <li>
+                <a href="instructor2.html">مدرس ۲</a>
+              </li>
+              <li>
+                <a href="instructor-details.html">جزئیات مدرس</a>
+              </li>
+              <li>
+                <a href="event.html">رویداد</a>
+              </li>
+              <li>
+                <a href="event-single.html">جزئیات رویداد</a>
+              </li>
+              <li>
+                <a href="404.html">۴۰۴</a>
+              </li>
+            </ul>
+          </li>
+          <li class="menu-item-has-children">
+            <a href="#">دوره‌ها</a>
+            <ul class="sub-menu">
+              <li>
+                <a href="courses.html">دوره‌ها</a>
+              </li>
+              <li>
+                <a href="courses-sidebar.html">دوره‌ها با نوار کناری</a>
+              </li>
+              <li>
+                <a href="single-course.html">جزئیات دوره</a>
+              </li>
+            </ul>
+          </li>
+          <li class="menu-item-has-children">
+            <a href="#">وبلاگ</a>
+            <ul class="sub-menu">
+              <li>
+                <a href="blog.html">وبلاگ</a>
+              </li>
+              <li>
+                <a href="blog-full.html">عرض کامل</a>
+              </li>
+              <li>
+                <a href="blog-standard.html">وبلاگ استاندارد</a>
+              </li>
+              <li>
+                <a href="#">جزئیات وبلاگ</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="contact.html">تماس</a>
+          </li>
+        </ul>
+      </div>
+      <div class="flex-none pb-4">
+        <div class="text-center text-black font-semibold mb-2">ما را دنبال کنید</div>
+        <ul class="flex space-x-4 justify-center">
+          <li>
+            <a href="#" class="flex h-10 w-10">
+              <img src="assets/images/icon/fb.svg" alt="" />
+            </a>
+          </li>
+          <li>
+            <a href="#" class="flex h-10 w-10">
+              <img src="assets/images/icon/tw.svg" alt="" />
+            </a>
+          </li>
+          <li>
+            <a href="#" class="flex h-10 w-10">
+              <img src="assets/images/icon/pn.svg" alt="" />
+            </a>
+          </li>
+          <li>
+            <a href="#" class="flex h-10 w-10">
+              <img src="assets/images/icon/ins.svg" alt="" />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div
+      class="breadcrumbs section-padding bg-[url('../images/all-img/bred.png')] bg-cover bg-center bg-no-repeat"
+    >
+      <div class="container text-center">
+        <h2>جزئیات وبلاگ</h2>
+        <nav>
+          <ol class="flex items-center justify-center space-x-3">
+            <li class="breadcrumb-item"><a href="index.html">صفحه اصلی</a></li>
+            <li class="breadcrumb-item">-</li>
+            <li class="text-primary">جزئیات مطلب</li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+
+    <div class="nav-tab-wrapper tabs section-padding">
+      <div class="container">
+        <div class="grid grid-cols-12 gap-[30px]">
+          <div class="lg:col-span-8 col-span-12">
+            <div class="bg-[#F8F8F8] rounded-md">
+              <img
+                src="assets/images/all-img/b-s-1.png"
+                alt="شب لیلة الرغائب"
+                class="rounded-t-md mb-10"
+              />
+              <div class="px-10 pb-10">
+                <div class="flex flex-wrap xl:space-x-10 space-x-5 mt-6 mb-6">
+                  <a class="flex items-center space-x-2" href="#">
+                    <img src="assets/images/svg/user3.svg" alt="" />
+                    <span>مدیریت مدرسه</span>
+                  </a>
+                  <a class="flex items-center space-x-2" href="#">
+                    <img src="assets/images/svg/calender.svg" alt="" />
+                    <span>۱۳ دی ۱۴۰۳</span>
+                  </a>
+                  <a class="flex items-center space-x-2" href="#">
+                    <img src="assets/images/icon/clock.svg" alt="" />
+                    <span>۵ دقیقه مطالعه</span>
+                  </a>
+                  <a class="flex items-center space-x-2" href="#">
+                    <img src="assets/images/svg/comments.svg" alt="" />
+                    <span>۰۲ دیدگاه</span>
+                  </a>
+                </div>
+                <h3>
+                  فضیلت و اعمال شب لیلة الرغائب؛ شبی که درهای رحمت گشوده می‌شود
+                </h3>
+                <p class="mt-6">
+                  شب لیلة الرغائب، اولین شب جمعه ماه رجب است؛ شبی که ملائکه بر زمین نزول می‌کنند و درهای رحمت الهی گشوده می‌شود. رسول خدا (ص) برای این شب عملی ذکر کرده‌اند که فضیلت بسیاری دارد. در این مطلب، به بررسی فضیلت، اعمال و آداب این شب مبارک می‌پردازیم.
+                </p>
+                <blockquote
+                  class="bg-secondary p-8 rounded-md bg-[url('../images/all-img/bb.png')] bg-cover bg-no-repeat bg-center my-8 text-white"
+                >
+                  <img src="assets/images/svg/q.svg" alt="" />
+                  <div class="text-xl font-semibold my-6">
+                    «کارى که با تقوا همراه باشد اندک نیست، چگونه آنچه مقبول خدا قرار گرفته، اندک محسوب شود.»
+                  </div>
+                  <div class="flex items-center space-x-3">
+                    <span class="inline-flex h-[3px] w-12 bg-white"></span>
+                    <span class="text-xl font-semibold">امام سجاد (ع)</span>
+                  </div>
+                </blockquote>
+                <p>
+                  برای این شب عملی از رسول خدا (ص) نقل شده که بدین قرار است: اولین پنج‌شنبه ماه رجب غسل انجام دهد و در صورت امکان روزه گرفته شود. چون شب جمعه شد، ما بین نماز مغرب و عشاء دوازده رکعت نماز اقامه شود که هر دو رکعت به یک سلام ختم می‌شود.
+                </p>
+                <div class="grid md:grid-cols-2 grid-cols-1 gap-[30px] my-8">
+                  <img src="assets/images/all-img/b-s-2.png" alt="محفل قرآنی" />
+                  <img src="assets/images/all-img/b-s-3.png" alt="مراسم مذهبی" />
+                </div>
+                <h4 class="text-2xl mb-4">
+                  اعمال شب لیلة الرغائب؛ از نماز تا دعا و استغفار
+                </h4>
+                <p>
+                  در هر رکعت یک مرتبه سوره حمد، سه مرتبه سوره قدر و دوازده مرتبه سوره توحید خوانده شود. و چون دوازده رکعت به اتمام رسید، هفتاد بار ذکر «اللهم صل علی محمد النبی الامی و علی آله» گفته شود.
+                </p>
+                <ul class="list-disc marker:text-secondary space-y-4 mt-6">
+                  <li>
+                    غسل در روز پنج‌شنبه اول ماه رجب
+                  </li>
+                  <li>
+                    روزه گرفتن در صورت امکان
+                  </li>
+                  <li>
+                    خواندن دوازده رکعت نماز بین مغرب و عشاء
+                  </li>
+                  <li>
+                    خواندن ذکر «سبوح قدوس رب الملائکة و الروح» در سجده
+                  </li>
+                </ul>
+                <div class="grid xl:grid-cols-2 grid-cols-1 gap-5 md:mt-14 mt-8">
+                  <ul class="flex items-center space-x-3">
+                    <li class="text-black font-semibold">برچسب‌ها:</li>
+                    <li>
+                      <a href="#" class="px-3 py-1 bg-white rounded hover:text-primary">معارف دینی</a>
+                    </li>
+                    <li>
+                      <a href="#" class="px-3 py-1 bg-white rounded hover:text-primary">دعا</a>
+                    </li>
+                    <li>
+                      <a href="#" class="px-3 py-1 bg-white rounded hover:text-primary">رجب</a>
+                    </li>
+                  </ul>
+                  <ul class="flex space-x-3 xl:justify-end items-center">
+                    <li class="text-black font-semibold">اشتراک‌گذاری در:</li>
+                    <li>
+                      <a href="#" class="flex h-8 w-8">
+                        <img src="assets/images/icon/fb.svg" alt="" />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="flex h-8 w-8">
+                        <img src="assets/images/icon/tw.svg" alt="" />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="flex h-8 w-8">
+                        <img src="assets/images/icon/pn.svg" alt="" />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="flex h-8 w-8">
+                        <img src="assets/images/icon/ins.svg" alt="" />
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <!-- related post -->
+                <div class="grid xl:grid-cols-2 grid-cols-1 gap-[30px] md:mt-14 mt-8">
+                  <a class="flex space-x-4 shadow-box7 rounded p-5 bg-white" href="#">
+                    <div class="flex-none">
+                      <div class="h-20 w-20 rounded">
+                        <img src="assets/images/all-img/rc-1.png" alt="" class="w-full h-full object-cover rounded" />
+                      </div>
+                    </div>
+                    <div class="flex-1">
+                      <span class="text-primary text-base mb-1">مطلب قبلی</span>
+                      <div class="mb-1 font-semibold text-black">
+                        توصیه‌های امام رضا (ع) برای آخرین روزهای شعبان
+                      </div>
+                    </div>
+                  </a>
+                  <a class="flex flex-row-reverse shadow-box7 bg-white rounded p-5" href="#">
+                    <div class="flex-none">
+                      <div class="h-20 w-20 rounded ml-4">
+                        <img src="assets/images/all-img/rc-3.png" alt="" class="w-full h-full object-cover rounded" />
+                      </div>
+                    </div>
+                    <div class="flex-1 text-right">
+                      <span class="text-primary text-base mb-1">مطلب بعدی</span>
+                      <div class="mb-1 font-semibold text-black">
+                        زیارتنامه امام سجاد (ع) با ترجمه فارسی
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- comments start -->
+            <div class="mt-14">
+              <h3 class="mb-6">۲ دیدگاه</h3>
+              <ul class="comments space-y-4">
+                <li class="block border-b border-[#ECECEC] pb-6 mt-6 last:border-0 last:pb-0">
+                  <div class="flex">
+                    <div class="flex-none">
+                      <div class="h-[72px] w-[72px] rounded-full mr-6">
+                        <img src="/assets/images/all-img/ins-1.png" alt="" class="w-full block h-full object-contain rounded-full" />
+                      </div>
+                    </div>
+                    <div class="flex-1">
+                      <div class="flex flex-wrap justify-between mb-2">
+                        <div>
+                          <span class="text-xl font-semibold text-black block mb-1">خانم شریفه احمدی</span>
+                          <span class="block">۱۴ دی ۱۴۰۳</span>
+                        </div>
+                        <a href="#" class="inline-flex px-3 py-1 rounded text-secondary bg-[#E3F9F6] hover:text-white hover:bg-secondary h-[35px] items-center space-x-2 leading-[1]">
+                          <span class="text-xl leading-[1] top-[3px] relative">
+                            <iconify-icon icon="charm:forward" rotate="180deg"></iconify-icon>
+                          </span>
+                          <span class="leading-[1]">پاسخ</span>
+                        </a>
+                      </div>
+                      <p>ممنون از مطلب مفیدتون. خیلی خوب و روان توضیح داده شده بود. انشاءالله از این اعمال بهره ببریم.</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="block">
+                  <div class="flex">
+                    <div class="flex-none">
+                      <div class="h-[72px] w-[72px] rounded-full mr-6">
+                        <img src="/assets/images/all-img/ins-2.png" alt="" class="w-full block h-full object-contain rounded-full" />
+                      </div>
+                    </div>
+                    <div class="flex-1">
+                      <div class="flex flex-wrap justify-between mb-2">
+                        <div>
+                          <span class="text-xl font-semibold text-black block mb-1">خانم صبر سلطانی</span>
+                          <span class="block">۱۵ دی ۱۴۰۳</span>
+                        </div>
+                        <a href="#" class="inline-flex px-3 py-1 rounded text-secondary bg-[#E3F9F6] hover:text-white hover:bg-secondary h-[35px] items-center space-x-2 leading-[1]">
+                          <span class="text-xl leading-[1] top-[3px] relative">
+                            <iconify-icon icon="charm:forward" rotate="180deg"></iconify-icon>
+                          </span>
+                          <span class="leading-[1]">پاسخ</span>
+                        </a>
+                      </div>
+                      <p>خدا خیرتون بده. من از این مطلب برای برگزاری برنامه مدرسه استفاده کردم.</p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Reply start -->
+            <div class="mt-14">
+              <h3 class="mb-4">ارسال دیدگاه</h3>
+              <div>
+                آدرس ایمیل شما منتشر نخواهد شد. فیلدهای موردنیاز با * مشخص شده‌اند
+              </div>
+              <div class="md:grid-cols-2 grid grid-cols-1 gap-[30px] mt-6">
+                <div>
+                  <input type="text" class="from-control" placeholder="نام*" />
+                </div>
+                <div>
+                  <input type="email" class="from-control" placeholder="ایمیل*" />
+                </div>
+                <div class="md:col-span-2 col-span-1">
+                  <input type="url" class="from-control" placeholder="آدرس وب‌سایت" />
+                </div>
+                <div class="md:col-span-2 col-span-1">
+                  <textarea class="from-control" placeholder="پیام شما*" rows="5"></textarea>
+                </div>
+              </div>
+              <button class="btn btn-primary mt-[30px]">ارسال دیدگاه</button>
+            </div>
+          </div>
+
+          <!-- سایدبار -->
+          <div class="lg:col-span-4 col-span-12">
+            <div class="sidebarWrapper space-y-[30px]">
+
+              <!-- جستجو -->
+              <div class="wdiget widget_search">
+                <div class="bg-[#F8F8F8] flex rounded-md shadow-e1 items-center py-[4px] pl-3 relative">
+                  <div class="flex-1">
+                    <input type="text" placeholder="جستجو در مطالب..." class="border-none focus:ring-0 bg-transparent" />
+                  </div>
+                  <div class="flex-none">
+                    <button class="btn btn-primary">
+                      <img src="assets/images/icon/search.svg" alt="" />
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <!-- دسته‌بندی‌ها -->
+              <div class="wdiget widget_catagory">
+                <h4 class="widget-title">دسته‌بندی مطالب</h4>
+                <ul class="list-item space-y-4">
+                  <li class="block">
+                    <a href="#" class="flex justify-between bg-[#F8F8F8] py-[17px] px-5 rounded hover:bg-primary hover:text-white transition-all duration-150">
+                      <span>معارف دینی (۱۲)</span>
+                      <span class="text-2xl">
+                        <iconify-icon icon="heroicons:chevron-right-20-solid"></iconify-icon>
+                      </span>
+                    </a>
+                  </li>
+                  <li class="block">
+                    <a href="#" class="flex justify-between bg-[#F8F8F8] py-[17px] px-5 rounded hover:bg-primary hover:text-white transition-all duration-150">
+                      <span>فرهنگی و تربیتی (۸)</span>
+                      <span class="text-2xl">
+                        <iconify-icon icon="heroicons:chevron-right-20-solid"></iconify-icon>
+                      </span>
+                    </a>
+                  </li>
+                  <li class="block">
+                    <a href="#" class="flex justify-between bg-[#F8F8F8] py-[17px] px-5 rounded hover:bg-primary hover:text-white transition-all duration-150">
+                      <span>مناسبت‌ها (۱۵)</span>
+                      <span class="text-2xl">
+                        <iconify-icon icon="heroicons:chevron-right-20-solid"></iconify-icon>
+                      </span>
+                    </a>
+                  </li>
+                  <li class="block">
+                    <a href="#" class="flex justify-between bg-[#F8F8F8] py-[17px] px-5 rounded hover:bg-primary hover:text-white transition-all duration-150">
+                      <span>گزارش فعالیت‌ها (۱۰)</span>
+                      <span class="text-2xl">
+                        <iconify-icon icon="heroicons:chevron-right-20-solid"></iconify-icon>
+                      </span>
+                    </a>
+                  </li>
+                  <li class="block">
+                    <a href="#" class="flex justify-between bg-[#F8F8F8] py-[17px] px-5 rounded hover:bg-primary hover:text-white transition-all duration-150">
+                      <span>اخبار مدرسه (۶)</span>
+                      <span class="text-2xl">
+                        <iconify-icon icon="heroicons:chevron-right-20-solid"></iconify-icon>
+                      </span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+
+              <!-- مطالب مرتبط -->
+              <div class="wdiget widget-recent-post">
+                <h4 class="widget-title">مطالب مرتبط</h4>
+                <ul class="list">
+                  <li class="flex space-x-4 border-[#ECECEC] pb-6 mb-6 last:pb-0 last:mb-0 last:border-0 border-b">
+                    <div class="flex-none">
+                      <div class="h-20 w-20 rounded">
+                        <img src="assets/images/all-img/rc-1.png" alt="" class="w-full h-full object-cover rounded" />
+                      </div>
+                    </div>
+                    <div class="flex-1">
+                      <div class="mb-1 font-semibold text-black">
+                        اعمال شب‌های قدر و دعای جوشن کبیر
+                      </div>
+                      <a class="text-secondary font-semibold" href="#">ادامه مطلب</a>
+                    </div>
+                  </li>
+                  <li class="flex space-x-4 border-[#ECECEC] pb-6 mb-6 last:pb-0 last:mb-0 last:border-0 border-b">
+                    <div class="flex-none">
+                      <div class="h-20 w-20 rounded">
+                        <img src="assets/images/all-img/rc-2.png" alt="" class="w-full h-full object-cover rounded" />
+                      </div>
+                    </div>
+                    <div class="flex-1">
+                      <div class="mb-1 font-semibold text-black">
+                        سیره عملی حضرت زهرا (س) در تربیت فرزند
+                      </div>
+                      <a class="text-secondary font-semibold" href="#">ادامه مطلب</a>
+                    </div>
+                  </li>
+                  <li class="flex space-x-4 border-[#ECECEC] pb-6 mb-6 last:pb-0 last:mb-0 last:border-0 border-b">
+                    <div class="flex-none">
+                      <div class="h-20 w-20 rounded">
+                        <img src="assets/images/all-img/rc-3.png" alt="" class="w-full h-full object-cover rounded" />
+                      </div>
+                    </div>
+                    <div class="flex-1">
+                      <div class="mb-1 font-semibold text-black">
+                        توصیه‌های امام رضا (ع) در ماه شعبان
+                      </div>
+                      <a class="text-secondary font-semibold" href="#">ادامه مطلب</a>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+
+              <!-- برچسب‌ها -->
+              <div class="wdiget">
+                <h4 class="widget-title">برچسب‌های محبوب</h4>
+                <ul class="flex flex-wrap">
+                  <li class="mr-2 mb-2">
+                    <a href="#" class="bg-[#F8F8F8] px-3 py-1 rounded text-base transition-all duration-150 hover:bg-primary hover:text-white">قرآن</a>
+                  </li>
+                  <li class="mr-2 mb-2">
+                    <a href="#" class="bg-[#F8F8F8] px-3 py-1 rounded text-base transition-all duration-150 hover:bg-primary hover:text-white">حدیث</a>
+                  </li>
+                  <li class="mr-2 mb-2">
+                    <a href="#" class="bg-[#F8F8F8] px-3 py-1 rounded text-base transition-all duration-150 hover:bg-primary hover:text-white">اهل بیت</a>
+                  </li>
+                  <li class="mr-2 mb-2">
+                    <a href="#" class="bg-[#F8F8F8] px-3 py-1 rounded text-base transition-all duration-150 hover:bg-primary hover:text-white">رمضان</a>
+                  </li>
+                  <li class="mr-2 mb-2">
+                    <a href="#" class="bg-[#F8F8F8] px-3 py-1 rounded text-base transition-all duration-150 hover:bg-primary hover:text-white">محرم</a>
+                  </li>
+                  <li class="mr-2 mb-2">
+                    <a href="#" class="bg-[#F8F8F8] px-3 py-1 rounded text-base transition-all duration-150 hover:bg-primary hover:text-white">فاطمیه</a>
+                  </li>
+                  <li class="mr-2 mb-2">
+                    <a href="#" class="bg-[#F8F8F8] px-3 py-1 rounded text-base transition-all duration-150 hover:bg-primary hover:text-white">دعا</a>
+                  </li>
+                  <li class="mr-2 mb-2">
+                    <a href="#" class="bg-[#F8F8F8] px-3 py-1 rounded text-base transition-all duration-150 hover:bg-primary hover:text-white">زیارت</a>
+                  </li>
+                  <li class="mr-2 mb-2">
+                    <a href="#" class="bg-[#F8F8F8] px-3 py-1 rounded text-base transition-all duration-150 hover:bg-primary hover:text-white">مهدویت</a>
+                  </li>
+                  <li class="mr-2 mb-2">
+                    <a href="#" class="bg-[#F8F8F8] px-3 py-1 rounded text-base transition-all duration-150 hover:bg-primary hover:text-white">بانوان</a>
+                  </li>
+                </ul>
+              </div>
+
+              <!-- گالری تصاویر -->
+              <div class="wdiget">
+                <h4 class="widget-title">گالری تصاویر</h4>
+                <div class="grid grid-cols-3 gap-4">
+                  <div>
+                    <a href="#" class="group relative block h-20 w-full rounded">
+                      <img src="assets/images/all-img/ins-1.png" alt="" class="block h-full w-full rounded object-cover" />
+                      <div class="absolute left-0 top-0 flex h-full w-full flex-col items-center justify-center rounded bg-black bg-opacity-40 text-3xl text-white opacity-0 transition-all duration-150 group-hover:opacity-100">
+                        <span class="scale-0 transition-all duration-150 group-hover:scale-100">
+                          <iconify-icon icon="akar-icons:instagram-fill"></iconify-icon>
+                        </span>
+                      </div>
+                    </a>
+                  </div>
+                  <div>
+                    <a href="#" class="group relative block h-20 w-full rounded">
+                      <img src="assets/images/all-img/ins-2.png" alt="" class="block h-full w-full rounded object-cover" />
+                      <div class="absolute left-0 top-0 flex h-full w-full flex-col items-center justify-center rounded bg-black bg-opacity-40 text-3xl text-white opacity-0 transition-all duration-150 group-hover:opacity-100">
+                        <span class="scale-0 transition-all duration-150 group-hover:scale-100">
+                          <iconify-icon icon="akar-icons:instagram-fill"></iconify-icon>
+                        </span>
+                      </div>
+                    </a>
+                  </div>
+                  <div>
+                    <a href="#" class="group relative block h-20 w-full rounded">
+                      <img src="assets/images/all-img/ins-3.png" alt="" class="block h-full w-full rounded object-cover" />
+                      <div class="absolute left-0 top-0 flex h-full w-full flex-col items-center justify-center rounded bg-black bg-opacity-40 text-3xl text-white opacity-0 transition-all duration-150 group-hover:opacity-100">
+                        <span class="scale-0 transition-all duration-150 group-hover:scale-100">
+                          <iconify-icon icon="akar-icons:instagram-fill"></iconify-icon>
+                        </span>
+                      </div>
+                    </a>
+                  </div>
+                  <div>
+                    <a href="#" class="group relative block h-20 w-full rounded">
+                      <img src="assets/images/all-img/ins-4.png" alt="" class="block h-full w-full rounded object-cover" />
+                      <div class="absolute left-0 top-0 flex h-full w-full flex-col items-center justify-center rounded bg-black bg-opacity-40 text-3xl text-white opacity-0 transition-all duration-150 group-hover:opacity-100">
+                        <span class="scale-0 transition-all duration-150 group-hover:scale-100">
+                          <iconify-icon icon="akar-icons:instagram-fill"></iconify-icon>
+                        </span>
+                      </div>
+                    </a>
+                  </div>
+                  <div>
+                    <a href="#" class="group relative block h-20 w-full rounded">
+                      <img src="assets/images/all-img/ins-5.png" alt="" class="block h-full w-full rounded object-cover" />
+                      <div class="absolute left-0 top-0 flex h-full w-full flex-col items-center justify-center rounded bg-black bg-opacity-40 text-3xl text-white opacity-0 transition-all duration-150 group-hover:opacity-100">
+                        <span class="scale-0 transition-all duration-150 group-hover:scale-100">
+                          <iconify-icon icon="akar-icons:instagram-fill"></iconify-icon>
+                        </span>
+                      </div>
+                    </a>
+                  </div>
+                  <div>
+                    <a href="#" class="group relative block h-20 w-full rounded">
+                      <img src="assets/images/all-img/ins-6.png" alt="" class="block h-full w-full rounded object-cover" />
+                      <div class="absolute left-0 top-0 flex h-full w-full flex-col items-center justify-center rounded bg-black bg-opacity-40 text-3xl text-white opacity-0 transition-all duration-150 group-hover:opacity-100">
+                        <span class="scale-0 transition-all duration-150 group-hover:scale-100">
+                          <iconify-icon icon="akar-icons:instagram-fill"></iconify-icon>
+                        </span>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer -->
+    <footer class="bg-black bg-[url('../images/all-img/footer-bg-1.png')] bg-cover bg-center bg-no-repeat">
+      <div class="section-padding container">
+        <div class="grid grid-cols-1 gap-7 md:grid-cols-2 lg:grid-cols-3">
+          <div class="single-footer">
+            <div class="lg:max-w-[270px]">
+              <a href="#" class="mb-10 block">
+                <img src="assets/images/logo/faviconlogo.png" alt="لوگو مدرسه علمیه" class="w-[170px] h-auto"/>
+              </a>
+              <p>برای سفارش این وب‌سایت و یا طراحی یک وب‌سایت اختصاصی و متناسب با نیاز خودتان، با ما تماس بگیرید.</p>
+              <ul class="flex space-x-4 pt-8">
+                <li>
+                  <a href="#" target="_blank" class="flex h-12 w-12 flex-col items-center justify-center rounded bg-white bg-opacity-[0.08] text-2xl text-white transition hover:bg-primary hover:text-white">
+                    <iconify-icon icon="bxl:linkedin"></iconify-icon>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://t.me/ElifAlgo" target="_blank" class="flex h-12 w-12 flex-col items-center justify-center rounded bg-white bg-opacity-[0.08] text-2xl text-white transition hover:bg-primary hover:text-white">
+                    <iconify-icon icon="fa6-brands:telegram"></iconify-icon>
+                  </a>
+                </li>
+                <li>
+                  <a href="tel:09331535511" target="_blank" class="flex h-12 w-12 flex-col items-center justify-center rounded bg-white bg-opacity-[0.08] text-2xl text-white transition hover:bg-primary hover:text-white">
+                    <iconify-icon icon="fa6-solid:phone"></iconify-icon>
+                  </a>
+                </li>
+                <li>
+                  <a href="mailto:MHoseini.Developer@gmail.com" target="_blank" class="flex h-12 w-12 flex-col items-center justify-center rounded bg-white bg-opacity-[0.08] text-2xl text-white transition hover:bg-primary hover:text-white">
+                    <iconify-icon icon="fa6-solid:envelope"></iconify-icon>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="single-footer">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+              <div class="flex-1 lg:flex-none md:ml-[80px]">
+                <h4 class="mb-8 text-2xl font-bold text-white">دسترسی سریع</h4>
+                <ul class="list-item space-y-5">
+                  <li><a href="#">خانه</a></li>
+                  <li><a href="#">درباره ما</a></li>
+                  <li><a href="#">دوره‌ها</a></li>
+                  <li><a href="#">وبلاگ</a></li>
+                  <li><a href="#">تماس با ما</a></li>
+                </ul>
+              </div>
+              <div class="flex-1 lg:flex-none">
+                <h4 class="mb-8 text-2xl font-bold text-white">اطلاعات تماس</h4>
+                <ul class="list-item space-y-5">
+                  <li>
+                    <a>آدرس:</a>
+                    <br>
+                    <a href="#">قم، خیابان ایکس</a>
+                    <br>
+                    <a>کوچه ۹، پلاک ۱۶</a>
+                  </li>
+                  <li>
+                    <a href="#">تلفن:</a> <br>
+                    <a href="#">۰۹۳۳۱۵۳۵۵۱۱</a>
+                  </li>
+                  <li>
+                    <a href="#">آیدی ایتا:  @ElifLIfe</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>          
+          <div class="single-footer">
+            <h4 class="mb-8 text-2xl font-bold text-white">خبرنامه</h4>
+            <div class="mb-8">
+              برای دریافت آخرین اخبار، برنامه‌ها و مقالات مدرسه، 
+              <span class="text-primary underline">ایمیل</span>
+              خود را وارد کنید.
+            </div>
+            <div class="mb-4 flex items-center rounded-md bg-white py-[10px] pl-[10px] pl-6 shadow-e1 fd">
+              <div class="flex-1">
+                <input type="text" placeholder="ایمیل خود را وارد کنید ..." class="border-none focus:ring-0" />
+              </div>
+              <div class="flex-none">
+                <span><img src="assets/images/icon/mail.svg" alt="ایمیل" /></span>
+              </div>
+            </div>
+            <button class="btn btn-primary block w-full text-center">اشتراک</button>
+          </div>
+        </div>
+      </div>
+      <div class="container border-t border-white border-opacity-[0.1] py-8 text-center text-base">
+        &copy; تمامی حقوق محفوظ است 2026 
+      </div>
+    </footer>
+
+    <div class="rt-mobile-menu-overlay"></div>
+    <!-- scripts -->
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/rt-plugins.js"></script>
+    <script src="https://unpkg.com/phosphor-icons"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.0/iconify-icon.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="assets/js/app.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+  </body>
+</html>

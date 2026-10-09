@@ -1,0 +1,504 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <title>وبلاگ مدرسه علمیه</title>
+    <link rel="icon" type="image/png" href="assets/images/logo/faviconlogo.png" />
+    <link rel="stylesheet" href="assets/css/rt-plugins.css" />
+    <link rel="stylesheet" href="assets/css/app.css" />
+    <link rel="stylesheet" href="assets/css/custom.css" />
+  </head>
+
+  <body class="font-medium text-gray text-lg leading-[27px]">
+    <!-- [if IE]> <p class="browserupgrade">
+        شما از یک مرورگر <strong>قدیمی</strong> استفاده می‌کنید. لطفاً
+        <a href="https://browsehappy.com/">مرورگر خود را به‌روزرسانی کنید</a> تا
+        تجربه و امنیت خود را بهبود بخشید.
+    </p> <![endif] -->
+
+    <header class="site-header header-normal top-0 bg-white z-[9] rt-sticky">
+      <div class="main-header py-8">
+        <div class="container">
+          <div class="flex items-center justify-between flex-wrap">
+            <a
+              href="index.html"
+              class="brand-logo flex-none lg:ml-10 md:ml-0"
+            >
+              <img src="assets/images/logo/madrese-elmieh-hazrat-maryam.svg" alt="مدرسه علمیه حضرت مریم س"
+            /></a>
+            <div class="flex items-center flex-1">
+              <div class="flex-1 main-menu lg:relative xl:ml-[74px] ml-6">
+                <ul>
+                  <li>
+                    <a href="index.html">خانه</a>
+                  </li>
+                  <li>
+                    <a href="about.html">درباره ما</a>
+                  </li>
+                  <li>
+                    <a href="blog.html">وبلاگ</a>
+                  </li>
+                  <li>
+                    <a href="projects.html">آشیانه جوان</a>
+                  </li>
+                </ul>
+                <div class="lg:block hidden">
+                  <div class="border border-gray rounded-md h-[46px] modal-search">
+                    <input type="text" class="block w-full rounded-md h-full border-none ring-0 focus:outline-none focus:ring-0" placeholder="جستجو..." />
+                  </div>
+                </div>
+              </div>
+              <div class="flex-none flex space-x-[18px]">
+                <button type="button" class="md:w-[56px] md:h-[56px] h-10 w-10 ml-4 rounded bg-[#F8F8F8] flex flex-col items-center justify-center modal-trigger">
+                  <img src="assets/images/svg/search.svg" alt="جستجو" />
+                </button>
+                <div class="block lg:hidden">
+                  <button type="button" class="text-3xl md:w-[56px] ml-4 h-10 w-10 md:h-[56px] rounded bg-[#F8F8F8] flex flex-col items-center justify-center menu-click">
+                    <iconify-icon icon="cil:hamburger-menu" rotate="180deg"></iconify-icon>
+                  </button>
+                </div>
+                <div class="hidden lg:block">
+                  <a href="contact.html" class="btn btn-primary py-[15px] px-8"
+                    >تماس باما</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="lg:hidden block mt-4">
+            <div class="border border-gray rounded-md h-[46px] modal-search">
+              <input type="text" class="block w-full rounded-md h-full border-none ring-0 focus:outline-none focus:ring-0" placeholder="جستجو..." />
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!--------- MobileMenu ----------->
+    <div
+      class="openmobile-menu fixed top-0 h-screen pt-10 pb-6 bg-white shadow-box2 w-[320px] overflow-y-auto flex flex-col z-[999]"
+    >
+      <div class="flex justify-between px-6 flex-none">
+        <a href="index.html" class="brand-logo flex-none mr-10">
+          <img src="assets/images/logo/madrese-elmieh-hazrat-maryam.svg" alt="لوگوی مدرسه علمیه" />
+        </a>
+        <span class="text-3xl text-black cursor-pointer rt-mobile-menu-close">
+          <iconify-icon icon="fe:close"></iconify-icon>
+        </span>
+      </div>
+      <div class="mobile-menu mt-6 flex-1">
+        <ul class="menu-active-classes">
+          <li class=" ">
+            <a href="index.html">صفحه اصلی</a>
+          </li>
+          <li>
+            <a href="about.html">درباره ما</a>
+          </li>
+          <li>
+            <a href="blog.html">وبلاگ</a>
+          </li>
+          <li>
+            <a href="projects.html">آشیانه جوان</a>
+          </li>
+          <li>
+            <a href="contact.html">تماس باما</a>
+          </li>
+        </ul>
+      </div>
+      <div class="flex-none pb-4">
+        <div class="text-center text-black font-semibold mb-2">ما را دنبال کنید</div>
+        <ul class="flex space-x-4 justify-center">
+          <li><a href="#" class="flex h-10 w-10"><img src="assets/images/icon/fb.svg" alt="فیسبوک" /></a></li>
+          <li><a href="#" class="flex h-10 w-10"><img src="assets/images/icon/tw.svg" alt="توییتر" /></a></li>
+          <li><a href="#" class="flex h-10 w-10"><img src="assets/images/icon/pn.svg" alt="پینترست" /></a></li>
+          <li><a href="#" class="flex h-10 w-10"><img src="assets/images/icon/ins.svg" alt="اینستاگرام" /></a></li>
+        </ul>
+      </div>
+    </div>
+    <!----------- FirsrPart ------------->
+    <div
+      class="breadcrumbs section-padding bg-cover bg-center bg-no-repeat"
+      style="background-image: url('assets/images/all-img/BackgroundH.png');"
+    >
+      <div class="container text-center">
+        <h2>وبلاگ مدرسه علمیه حضرت مریم (س)</h2>
+        <nav>
+          <ol class="flex items-center justify-center space-x-3">
+            <li class="breadcrumb-item">
+              <a href="index.html">صفحه اصلی</a>
+            </li>
+            <li class="breadcrumb-item">-</li>
+            <li class="text-primary">وبلاگ</li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+
+    <div class="nav-tab-wrapper tabs section-padding">
+      <div class="container">
+        <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-[30px]">
+
+          <!-- مطلب ۱ - معارف دینی -->
+          <div class="bg-white shadow-box12 rounded-[8px] transition duration-100 hover:shadow-box13">
+            <div class="course-thumb h-[260px] rounded-t-[8px] relative">
+              <img src="assets/images/all-img/mahfel-1.jpg" alt="لیلة الرغائب" class="w-full h-full object-cover rounded-t-[8px]" />
+              <span class="bg-secondary py-1 px-3 text-lg font-semibold rounded text-white absolute left-6 top-6">معارف دینی</span>
+            </div>
+            <div class="course-content p-8">
+              <div class="flex lg:space-x-10 space-x-5 mb-5">
+                <a class="flex items-center space-x-2" href="#">
+                  <img src="assets/images/svg/admin.svg" alt="" />
+                  <span>مراسم</span>
+                </a>
+                <a class="flex items-center space-x-2" href="#">
+                  <img src="assets/images/svg/calender.svg" alt="" />
+                  <span>19 شهریور 1405</span>
+                </a>
+              </div>
+              <h4 class="text-xl mb-5 font-bold">
+                <a href="#" class="hover:text-primary transition duration-150">
+                  محفل هفتگی ذکر توسل و روضه بانوان
+                </a>
+              </h4>
+              <a href="#" class="text-black font-semibold hover:underline transition duration-150">ادامه مطلب</a>
+            </div>
+          </div>
+
+          <!-- مطلب ۲ - فرهنگی و تربیتی -->
+          <div class="bg-white shadow-box12 rounded-[8px] transition duration-100 hover:shadow-box13">
+            <div class="course-thumb h-[260px] rounded-t-[8px] relative">
+              <img src="assets/images/all-img/mahfel-2.jpg" alt="مراسم تلاوت قرآن کریم" class="w-full h-full object-cover rounded-t-[8px]" />
+              <span class="bg-secondary py-1 px-3 text-lg font-semibold rounded text-white absolute left-6 top-6">فرهنگی و تربیتی</span>
+            </div>
+            <div class="course-content p-8">
+              <div class="flex lg:space-x-10 space-x-5 mb-5">
+                <a class="flex items-center space-x-2" href="#">
+                  <img src="assets/images/svg/admin.svg" alt="" />
+                  <span>مراسم</span>
+                </a>
+                <a class="flex items-center space-x-2" href="#">
+                  <img src="assets/images/svg/calender.svg" alt="" />
+                  <span>18 تیر 1405</span>
+                </a>
+              </div>
+              <h4 class="text-xl mb-5 font-bold">
+                <a href="#" class="hover:text-primary transition duration-150">
+                  مراسم  تلاوت و ختم قرآن به نیت رهبر شهید
+                </a>
+              </h4>
+              <a href="#" class="text-black font-semibold hover:underline transition duration-150">ادامه مطلب</a>
+            </div>
+          </div>
+
+          <!-- مطلب ۳ - مناسبت‌ها -->
+          <div class="bg-white shadow-box12 rounded-[8px] transition duration-100 hover:shadow-box13">
+            <div class="course-thumb h-[260px] rounded-t-[8px] relative">
+              <img src="assets/images/all-img/mahfel-3.jpg" alt=" مراسم اقامه عزا سید الشهدا" class="w-full h-full object-cover rounded-t-[8px]" />
+              <span class="bg-secondary py-1 px-3 text-lg font-semibold rounded text-white absolute left-6 top-6">مناسبت‌ها</span>
+            </div>
+            <div class="course-content p-8">
+              <div class="flex lg:space-x-10 space-x-5 mb-5">
+                <a class="flex items-center space-x-2" href="#">
+                  <img src="assets/images/svg/admin.svg" alt="" />
+                  <span>مدیریت</span>
+                </a>
+                <a class="flex items-center space-x-2" href="#">
+                  <img src="assets/images/svg/calender.svg" alt="" />
+                  <span>6 تیر 1405</span>
+                </a>
+              </div>
+              <h4 class="text-xl mb-5 font-bold">
+                <a href="#" class="hover:text-primary transition duration-150">
+                   مراسم اقامه عزا سید الشهدا
+                </a>
+              </h4>
+              <a href="#" class="text-black font-semibold hover:underline transition duration-150">ادامه مطلب</a>
+            </div>
+          </div>
+
+          <!-- مطلب ۴ - گزارش فعالیت‌ها -->
+          <div class="bg-white shadow-box12 rounded-[8px] transition duration-100 hover:shadow-box13">
+            <div class="course-thumb h-[260px] rounded-t-[8px] relative">
+              <img src="assets/images/all-img/mahfel-4.jpg" alt="ویژه برنامه جشن عید سعید غدیر" class="w-full h-full object-cover rounded-t-[8px]" />
+              <span class="bg-secondary py-1 px-3 text-lg font-semibold rounded text-white absolute left-6 top-6">گزارش فعالیت‌ها</span>
+            </div>
+            <div class="course-content p-8">
+              <div class="flex lg:space-x-10 space-x-5 mb-5">
+                <a class="flex items-center space-x-2" href="#">
+                  <img src="assets/images/svg/admin.svg" alt="" />
+                  <span>مدیریت</span>
+                </a>
+                <a class="flex items-center space-x-2" href="#">
+                  <img src="assets/images/svg/calender.svg" alt="" />
+                  <span>14 خرداد 1405</span>
+                </a>
+              </div>
+              <h4 class="text-xl mb-5 font-bold">
+                <a href="#" class="hover:text-primary transition duration-150">
+                  ویژه برنامه جشن عید سعید غدیر
+                </a>
+              </h4>
+              <a href="#" class="text-black font-semibold hover:underline transition duration-150">ادامه مطلب</a>
+            </div>
+          </div>
+
+          <!-- مطلب ۵ - معارف دینی -->
+          <div class="bg-white shadow-box12 rounded-[8px] transition duration-100 hover:shadow-box13">
+            <div class="course-thumb h-[260px] rounded-t-[8px] relative">
+              <img src="assets/images/all-img/Ejlasie-1.jpg" alt="گزارش اجلاسیه" class="w-full h-full object-cover rounded-t-[8px]" />
+              <span class="bg-secondary py-1 px-3 text-lg font-semibold rounded text-white absolute left-6 top-6">معارف دینی</span>
+            </div>
+            <div class="course-content p-8">
+              <div class="flex lg:space-x-10 space-x-5 mb-5">
+                <a class="flex items-center space-x-2" href="#">
+                  <img src="assets/images/svg/admin.svg" alt="" />
+                  <span>مدیریت</span>
+                </a>
+                <a class="flex items-center space-x-2" href="#">
+                  <img src="assets/images/svg/calender.svg" alt="" />
+                  <span>30 اردیبهشت 1405</span>
+                </a>
+              </div>
+              <h4 class="text-xl mb-5 font-bold">
+                <a href="#" class="hover:text-primary transition duration-150">
+                  اجلاسیه مدارس پیوسته جامعه المصطفی العالمیه به میزبانی مدرسه حضرت مریم(س)
+                </a>
+              </h4>
+              <a href="#" class="text-black font-semibold hover:underline transition duration-150">ادامه مطلب</a>
+            </div>
+          </div>
+
+          <!-- مطلب ۶ - فرهنگی و تربیتی -->
+          <div class="bg-white shadow-box12 rounded-[8px] transition duration-100 hover:shadow-box13">
+            <div class="course-thumb h-[260px] rounded-t-[8px] relative">
+              <img src="assets/images/all-img/marasem-1.jpg" alt="میلاد امام رضا(ع)" class="w-full h-full object-cover rounded-t-[8px]" />
+              <span class="bg-secondary py-1 px-3 text-lg font-semibold rounded text-white absolute left-6 top-6">فرهنگی و تربیتی</span>
+            </div>
+            <div class="course-content p-8">
+              <div class="flex lg:space-x-10 space-x-5 mb-5">
+                <a class="flex items-center space-x-2" href="#">
+                  <img src="assets/images/svg/admin.svg" alt="" />
+                  <span>مدیریت</span>
+                </a>
+                <a class="flex items-center space-x-2" href="#">
+                  <img src="assets/images/svg/calender.svg" alt="" />
+                  <span>۲۵ بهمن ۱۴۰۳</span>
+                </a>
+              </div>
+              <h4 class="text-xl mb-5 font-bold">
+                <a href="#" class="hover:text-primary transition duration-150">
+                  مراسم میلاد امام علی ابن‌موسی الرضا (ع)
+                </a>
+              </h4>
+              <a href="#" class="text-black font-semibold hover:underline transition duration-150">ادامه مطلب</a>
+            </div>
+          </div>
+
+          <!-- مطلب ۷ - مناسبت‌ها -->
+          <div class="bg-white shadow-box12 rounded-[8px] transition duration-100 hover:shadow-box13">
+            <div class="course-thumb h-[260px] rounded-t-[8px] relative">
+              <img src="assets/images/all-img/mookeb-1.jpg" alt="موکب" class="w-full h-full object-cover rounded-t-[8px]" />
+              <span class="bg-secondary py-1 px-3 text-lg font-semibold rounded text-white absolute left-6 top-6">مناسبت‌ها</span>
+            </div>
+            <div class="course-content p-8">
+              <div class="flex lg:space-x-10 space-x-5 mb-5">
+                <a class="flex items-center space-x-2" href="#">
+                  <img src="assets/images/svg/admin.svg" alt="" />
+                  <span>موکب</span>
+                </a>
+                <a class="flex items-center space-x-2" href="#">
+                  <img src="assets/images/svg/calender.svg" alt="" />
+                  <span>۲ دی ۱۴۰۳</span>
+                </a>
+              </div>
+              <h4 class="text-xl mb-5 font-bold">
+                <a href="#" class="hover:text-primary transition duration-150">
+                  موکب شبانه مدرسه علمیه خواهران حضرت مریم(س)
+                </a>
+              </h4>
+              <a href="#" class="text-black font-semibold hover:underline transition duration-150">ادامه مطلب</a>
+            </div>
+          </div>
+
+          <!-- مطلب ۸ - گزارش فعالیت‌ها -->
+          <div class="bg-white shadow-box12 rounded-[8px] transition duration-100 hover:shadow-box13">
+            <div class="course-thumb h-[260px] rounded-t-[8px] relative">
+              <img src="assets/images/all-img/mahfel-6.jpg" alt="اربعین امام شهید" class="w-full h-full object-cover rounded-t-[8px]" />
+              <span class="bg-secondary py-1 px-3 text-lg font-semibold rounded text-white absolute left-6 top-6">گزارش فعالیت‌ها</span>
+            </div>
+            <div class="course-content p-8">
+              <div class="flex lg:space-x-10 space-x-5 mb-5">
+                <a class="flex items-center space-x-2" href="#">
+                  <img src="assets/images/svg/admin.svg" alt="" />
+                  <span>مراسم</span>
+                </a>
+                <a class="flex items-center space-x-2" href="#">
+                  <img src="assets/images/svg/calender.svg" alt="" />
+                  <span>۳ آبان ۱۴۰۳</span>
+                </a>
+              </div>
+              <h4 class="text-xl mb-5 font-bold">
+                <a href="#" class="hover:text-primary transition duration-150">
+                  مراسم اربعین شهادت امام شهید و گرامیداشت شهدای جنگ تحمیلی
+                </a>
+              </h4>
+              <a href="#" class="text-black font-semibold hover:underline transition duration-150">ادامه مطلب</a>
+            </div>
+          </div>
+
+          <!-- مطلب ۹ - معارف دینی -->
+          <div class="bg-white shadow-box12 rounded-[8px] transition duration-100 hover:shadow-box13">
+            <div class="course-thumb h-[260px] rounded-t-[8px] relative">
+              <img src="assets/images/all-img/rapeimaee.jpg" alt="راهپیمایی" class="w-full h-full object-cover rounded-t-[8px]" />
+              <span class="bg-secondary py-1 px-3 text-lg font-semibold rounded text-white absolute left-6 top-6">معارف دینی</span>
+            </div>
+            <div class="course-content p-8">
+              <div class="flex lg:space-x-10 space-x-5 mb-5">
+                <a class="flex items-center space-x-2" href="#">
+                  <img src="assets/images/svg/admin.svg" alt="" />
+                  <span>مدیریت</span>
+                </a>
+                <a class="flex items-center space-x-2" href="#">
+                  <img src="assets/images/svg/calender.svg" alt="" />
+                  <span>۱۰ اسفند ۱۴۰۳</span>
+                </a>
+              </div>
+              <h4 class="text-xl mb-5 font-bold">
+                <a href="#" class="hover:text-primary transition duration-150">
+                  راهپیمایی با شکوه و دشمن شکن روز قدس
+                </a>
+              </h4>
+              <a href="#" class="text-black font-semibold hover:underline transition duration-150">ادامه مطلب</a>
+            </div>
+          </div>
+
+        </div>
+        <div class="pagination mt-14">
+          <ul class="flex justify-center space-x-3">
+            <li class="inline-flex">
+              <a href="#" class="flex w-12 h-12 flex-col items-center justify-center bg-[#ECECEC] rounded font-semibold">
+                <iconify-icon icon="heroicons:chevron-double-right-20-solid" class="text-2xl"></iconify-icon>
+              </a>
+            </li>
+            <li class="inline-flex">
+              <a href="#" class="flex w-12 h-12 flex-col items-center justify-center bg-primary text-white rounded font-semibold">۱</a>
+            </li>
+            <li class="inline-flex">
+              <a href="#" class="flex w-12 h-12 flex-col items-center justify-center bg-[#ECECEC] rounded font-semibold">۲</a>
+            </li>
+            <li class="inline-flex">
+              <a href="#" class="flex w-12 h-12 flex-col items-center justify-center bg-[#ECECEC] rounded font-semibold">۳</a>
+            </li>
+            <li class="inline-flex">
+              <a href="#" class="flex w-12 h-12 flex-col items-center justify-center bg-[#ECECEC] rounded font-semibold">
+                <iconify-icon icon="heroicons:chevron-double-left-20-solid" class="text-2xl"></iconify-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!--------- Footer  --------->
+    <footer class="bg-black bg-[url('../images/all-img/footer-bg-1.png')] bg-cover bg-center bg-no-repeat">
+      <div class="section-padding container">
+        <div class="grid grid-cols-1 gap-7 md:grid-cols-2 lg:grid-cols-3">
+          <div class="single-footer">
+            <div class="lg:max-w-[270px]">
+              <a href="#" class="mb-10 block">
+                <img src="assets/images/logo/faviconlogo.png" alt="لوگو مدرسه علمیه" class="w-[170px] h-auto"/>
+              </a>
+              <p>برای سفارش این وب‌سایت و یا طراحی یک وب‌سایت اختصاصی و متناسب با نیاز خودتان، با ما تماس بگیرید.</p>
+              <ul class="flex space-x-4 pt-8">
+                <li>
+                  <a href="#" target="_blank" class="flex h-12 w-12 flex-col items-center justify-center rounded bg-white bg-opacity-[0.08] text-2xl text-white transition hover:bg-primary hover:text-white">
+                    <iconify-icon icon="bxl:linkedin"></iconify-icon>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://t.me/ElifAlgo" target="_blank" class="flex h-12 w-12 flex-col items-center justify-center rounded bg-white bg-opacity-[0.08] text-2xl text-white transition hover:bg-primary hover:text-white">
+                    <iconify-icon icon="fa6-brands:telegram"></iconify-icon>
+                  </a>
+                </li>
+                <li>
+                  <a href="tel:09331535511" target="_blank" class="flex h-12 w-12 flex-col items-center justify-center rounded bg-white bg-opacity-[0.08] text-2xl text-white transition hover:bg-primary hover:text-white">
+                    <iconify-icon icon="fa6-solid:phone"></iconify-icon>
+                  </a>
+                </li>
+                <li>
+                  <a href="mailto:MHoseini.Developer@gmail.com" target="_blank" class="flex h-12 w-12 flex-col items-center justify-center rounded bg-white bg-opacity-[0.08] text-2xl text-white transition hover:bg-primary hover:text-white">
+                    <iconify-icon icon="fa6-solid:envelope"></iconify-icon>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="single-footer">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+              <div class="flex-1 lg:flex-none md:ml-[80px]">
+                <h4 class="mb-8 text-2xl font-bold text-white">دسترسی سریع</h4>
+                <ul class="list-item space-y-5">
+                  <li><a href="#">خانه</a></li>
+                  <li><a href="#">درباره ما</a></li>
+                  <li><a href="#">دوره‌ها</a></li>
+                  <li><a href="#">وبلاگ</a></li>
+                  <li><a href="#">تماس با ما</a></li>
+                </ul>
+              </div>
+              <div class="flex-1 lg:flex-none">
+                <h4 class="mb-8 text-2xl font-bold text-white">اطلاعات تماس</h4>
+                <ul class="list-item space-y-5">
+                  <li>
+                    <a>آدرس:</a>
+                    <br>
+                    <a href="#">قم، خیابان ایکس</a>
+                    <br>
+                    <a>کوچه ۹، پلاک ۱۶</a>
+                  </li>
+                  <li>
+                    <a href="#">تلفن:</a> <br>
+                    <a href="#">۰۹۳۳۱۵۳۵۵۱۱</a>
+                  </li>
+                  <li>
+                    <a href="#">آیدی ایتا:  @ElifLIfe</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>          
+          <div class="single-footer">
+            <h4 class="mb-8 text-2xl font-bold text-white">خبرنامه</h4>
+            <div class="mb-8">
+              برای دریافت آخرین اخبار، برنامه‌ها و مقالات مدرسه، 
+              <span class="text-primary underline">ایمیل</span>
+              خود را وارد کنید.
+            </div>
+            <div class="mb-4 flex items-center rounded-md bg-white py-[10px] pl-[10px] pl-6 shadow-e1 fd">
+              <div class="flex-1">
+                <input type="text" placeholder="ایمیل خود را وارد کنید ..." class="border-none focus:ring-0" />
+              </div>
+              <div class="flex-none">
+                <span><img src="assets/images/icon/mail.svg" alt="ایمیل" /></span>
+              </div>
+            </div>
+            <button class="btn btn-primary block w-full text-center">اشتراک</button>
+          </div>
+        </div>
+      </div>
+      <div class="container border-t border-white border-opacity-[0.1] py-8 text-center text-base">
+        &copy; تمامی حقوق محفوظ است 2026 
+      </div>
+    </footer>
+
+    <div class="rt-mobile-menu-overlay"></div>
+    <!---------- scripts --------->
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/rt-plugins.js"></script>
+    <script src="https://unpkg.com/phosphor-icons"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.0/iconify-icon.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="assets/js/app.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+  </body>
+</html>

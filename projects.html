@@ -1,0 +1,613 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <title>آشیانه جوان</title>
+    <link rel="icon" type="image/png" href="assets/images/logo/faviconAshiane.jpg" />
+    <link rel="stylesheet" href="assets/css/rt-plugins.css" />
+    <link rel="stylesheet" href="assets/css/app.css" />
+    <link rel="stylesheet" href="assets/css/custom.css" />
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+  </head>
+
+  <body class="font-medium text-gray text-lg leading-[27px]">
+    <!--[if IE]>
+      <p class="browserupgrade">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="https://browsehappy.com/">upgrade your browser</a> to improve
+        your experience and security.
+      </p>
+    <![endif]-->
+
+    <!-- -------------header----------- -->
+    <header class="site-header header-normal top-0 bg-white z-[9] rt-sticky">
+      <div class="main-header py-8">
+        <div class="container">
+          <div class="flex items-center justify-between flex-wrap">
+            <a
+              href="projects.html"
+              class="brand-logo flex-none lg:ml-10 md:ml-0"
+            >
+              <img src="assets/images/logo/ashiyane-javan-logo.svg" alt="آشیانه جوان"
+            /></a>
+            <div class="flex items-center flex-1">
+              <div class="flex-1 main-menu lg:relative xl:ml-[74px] ml-6">
+                <ul>
+                  <li>
+                    <a href="index.html">خانه</a>
+                  </li>
+                  <li>
+                    <a href="about.html">درباره ما</a>
+                  </li>
+                  <li>
+                    <a href="blog.html">وبلاگ</a>
+                  </li>
+                  <li>
+                    <a href="projects.html">آشیانه جوان</a>
+                  </li>
+                </ul>
+                <div class="lg:block hidden">
+                  <div class="border border-gray rounded-md h-[46px] modal-search">
+                    <input type="text" class="block w-full rounded-md h-full border-none ring-0 focus:outline-none focus:ring-0" placeholder="جستجو..." />
+                  </div>
+                </div>
+              </div>
+              <div class="flex-none flex space-x-[18px]">
+                <button type="button" class="md:w-[56px] md:h-[56px] h-10 w-10 ml-4 rounded bg-[#F8F8F8] flex flex-col items-center justify-center modal-trigger">
+                  <img src="assets/images/svg/search.svg" alt="جستجو" />
+                </button>
+                <div class="block lg:hidden">
+                  <button type="button" class="text-3xl md:w-[56px] ml-4 h-10 w-10 md:h-[56px] rounded bg-[#F8F8F8] flex flex-col items-center justify-center menu-click">
+                    <iconify-icon icon="cil:hamburger-menu" rotate="180deg"></iconify-icon>
+                  </button>
+                </div>
+                <div class="hidden lg:block">
+                  <a href="contact.html" class="btn btn-primary py-[15px] px-8"
+                    >تماس باما</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="lg:hidden block mt-4">
+            <div class="border border-gray rounded-md h-[46px] modal-search">
+              <input type="text" class="block w-full rounded-md h-full border-none ring-0 focus:outline-none focus:ring-0" placeholder="جستجو..." />
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- -------------header----------- -->
+
+    <!-- ----------mobile-menu---------- -->
+    <div
+      class="openmobile-menu fixed top-0 h-screen pt-10 pb-6 bg-white shadow-box2 w-[320px] overflow-y-auto flex flex-col z-[999]"
+    >
+      <div class="flex justify-between px-6 flex-none">
+        <a href="index.html" class="brand-logo flex-none mr-10">
+          <img src="assets/images/logo/madrese-elmieh-hazrat-maryam.svg" alt="لوگوی مدرسه علمیه" />
+        </a>
+        <span class="text-3xl text-black cursor-pointer rt-mobile-menu-close">
+          <iconify-icon icon="fe:close"></iconify-icon>
+        </span>
+      </div>
+      <div class="mobile-menu mt-6 flex-1">
+        <ul class="menu-active-classes">
+          <li class=" ">
+            <a href="index.html">صفحه اصلی</a>
+          </li>
+          <li>
+            <a href="about.html">درباره ما</a>
+          </li>
+          <li>
+            <a href="blog.html">وبلاگ</a>
+          </li>
+          <li>
+            <a href="projects.html">آشیانه جوان</a>
+          </li>
+          <li>
+            <a href="contact.html">تماس باما</a>
+          </li>
+        </ul>
+      </div>
+      <div class="flex-none pb-4">
+        <div class="text-center text-black font-semibold mb-2">ما را دنبال کنید</div>
+        <ul class="flex space-x-4 justify-center">
+          <li><a href="#" class="flex h-10 w-10"><img src="assets/images/icon/fb.svg" alt="فیسبوک" /></a></li>
+          <li><a href="#" class="flex h-10 w-10"><img src="assets/images/icon/tw.svg" alt="توییتر" /></a></li>
+          <li><a href="#" class="flex h-10 w-10"><img src="assets/images/icon/pn.svg" alt="پینترست" /></a></li>
+          <li><a href="#" class="flex h-10 w-10"><img src="assets/images/icon/ins.svg" alt="اینستاگرام" /></a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- ----------mobile-menu----------- -->
+
+    <!-- ----------breadcrumb---------- -->
+    <div 
+      class="breadcrumbs section-padding bg-cover bg-center bg-no-repeat"
+      style="background-image: url('assets/images/all-img/bred4.png');"
+    >
+      <div class="container text-center">
+        <h2>بنیاد علمی و فرهنگی آشیانه جوان</h2>
+        <nav>
+          <ol class="flex items-center justify-center space-x-3">
+            <li class="breadcrumb-item ml-2">
+              <a href="index.html">صفحه اصلی</a>
+            </li>
+            <li class="breadcrumb-item">-</li>
+            <li class="text-primary">آشیانه جوان</li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+
+    <!-- ---------- description section ---------- -->
+    <div class="about-area section-padding-top pb-12">
+      <div class="container">
+        <div class="grid grid-cols-12 gap-10">
+          <div class="xl:col-span-7 lg:col-span-6 col-span-12">
+            <img src="assets/images/all-img/Houze3.png" alt="" />
+          </div>
+          <div class="xl:col-span-5 lg:col-span-6 col-span-12">
+            <div class="mini-title">درباره بنیاد</div>
+            <h4 class="column-title">
+              با ما برای 
+              <span class="shape-bg"> آینده‌ ای بهتر </span>
+              قدم بردار
+            </h4>
+            <div class="mb-8">
+              بنیاد علمی و فرهنگی آشیانه جوان، زیرمجموعه مدرسه علمیه حضرت مریم (س)، با هدف آموزش مهارت‌های کاربردی و آینده‌ساز برای نسل جوان افغانستان فعالیت می‌کند. ما باور داریم یادگیری واقعی فراتر از کلاس‌های معمولی است؛ اینجا نقطه شروع نسل سازنده است.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>    
+
+    <!-- ----------Project-list----------- -->
+    <div class="nav-tab-wrapper tabs section-padding">
+      <div class="container">
+        <div class="flex items-center mb-14">
+          <div class="flex-1 flex space-x-6 items-center">
+            <span> نمایش ۱۲ دوره از ۵۲ </span>
+          </div>
+          <div class="flex-0">
+            <div class="min-w-[272px]">
+              <select>
+                <option data-display="مرتب‌سازی: محبوبیت">مرتب‌سازی: محبوبیت</option>
+                <option value="1">پربازدید</option>
+                <option value="2">قیمت</option>
+                <option value="4">زمان</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <!-----------  Courses -------------->
+        <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-[30px]">
+          <!-- دوره ۱ - فناوری‌های نوظهور -->
+          <div class="bg-white shadow-box5 rounded-[8px] transition duration-100 hover:shadow-box3">
+            <div class="course-thumb h-[297px] rounded-t-[8px] relative">
+              <img src="assets/images/all-img/fannavari.jpg" alt="فناوری‌های نوظهور" class="w-full h-full object-cover rounded-t-[8px]" />
+            </div>
+            <div class="course-content p-8">
+              <h4 class="text-xl mb-5 font-bold">
+                <a href="contact.html" class="hover:text-primary transition duration-150">
+                  فناوری‌های نوظهور و هوش مصنوعی
+                </a>
+              </h4>
+              <ul class="list space-y-3 mb-6">
+                <li class="flex space-x-2">
+                  <span class="text-lg text-secondary ml-2">
+                    <iconify-icon icon="heroicons:academic-cap"></iconify-icon>
+                  </span>
+                  <span>از پایه تا پیشرفته</span>
+                </li>
+                <li class="flex space-x-2">
+                  <span class="text-lg text-secondary ml-2">
+                    <iconify-icon icon="heroicons:user-group"></iconify-icon>
+                  </span>
+                  <span>حضوری و آنلاین</span>
+                </li>
+              </ul>
+              <a href="contact.html" class="btn px-8 py-[11px] bg-black text-white hover:bg-primary">ثبت‌نام</a>
+            </div>
+          </div>
+
+          <!-- دوره ۲ - پایتون -->
+          <div class="bg-white shadow-box5 rounded-[8px] transition duration-100 hover:shadow-box3">
+            <div class="course-thumb h-[297px] rounded-t-[8px] relative">
+              <img src="assets/images/all-img/python.jpg" alt="برنامه‌نویسی پایتون" class="w-full h-full object-cover rounded-t-[8px]" />
+            </div>
+            <div class="course-content p-8">
+              <h4 class="text-xl mb-5 font-bold">
+                <a href="contact.html" class="hover:text-primary transition duration-150">
+                  برنامه‌نویسی پایتون
+                </a>
+              </h4>
+              <ul class="list space-y-3 mb-6">
+                <li class="flex space-x-2">
+                  <span class="text-lg text-secondary ml-2">
+                    <iconify-icon icon="heroicons:code-bracket"></iconify-icon>
+                  </span>
+                  <span>از اولین print() تا پروژه واقعی</span>
+                </li>
+                <li class="flex space-x-2">
+                  <span class="text-lg text-secondary ml-2">
+                    <iconify-icon icon="heroicons:user-group"></iconify-icon>
+                  </span>
+                  <span>ویژه نوجوانان و بزرگسالان</span>
+                </li>
+              </ul>
+              <a href="contact.html" class="btn px-8 py-[11px] bg-black text-white hover:bg-primary">ثبت‌نام</a>
+            </div>
+          </div>
+
+          <!-- دوره ۳ - طراحی وب -->
+          <div class="bg-white shadow-box5 rounded-[8px] transition duration-100 hover:shadow-box3">
+            <div class="course-thumb h-[297px] rounded-t-[8px] relative">
+              <img src="assets/images/all-img/fanavary.jpg" alt="طراحی و توسعه وب" class="w-full h-full object-cover rounded-t-[8px]" />
+            </div>
+            <div class="course-content p-8">
+              <h4 class="text-xl mb-5 font-bold">
+                <a href="contact.html" class="hover:text-primary transition duration-150">
+                  طراحی و توسعه وب
+                </a>
+              </h4>
+              <ul class="list space-y-3 mb-6">
+                <li class="flex space-x-2">
+                  <span class="text-lg text-secondary ml-2">
+                    <iconify-icon icon="heroicons:globe-alt"></iconify-icon>
+                  </span>
+                  <span>HTML، CSS و Django</span>
+                </li>
+                <li class="flex space-x-2">
+                  <span class="text-lg text-secondary ml-2">
+                    <iconify-icon icon="heroicons:user-group"></iconify-icon>
+                  </span>
+                  <span>ساخت پروژه واقعی</span>
+                </li>
+              </ul>
+              <a href="contact.html" class="btn px-8 py-[11px] bg-black text-white hover:bg-primary">ثبت‌نام</a>
+            </div>
+          </div>
+
+          <!-- دوره ۴ - فن بیان -->
+          <div class="bg-white shadow-box5 rounded-[8px] transition duration-100 hover:shadow-box3">
+            <div class="course-thumb h-[297px] rounded-t-[8px] relative">
+              <img src="assets/images/all-img/e4.png" alt="فن بیان و سخنوری" class="w-full h-full object-cover rounded-t-[8px]" />
+            </div>
+            <div class="course-content p-8">
+              <h4 class="text-xl mb-5 font-bold">
+                <a href="contact.html" class="hover:text-primary transition duration-150">
+                  فن بیان و سخنوری
+                </a>
+              </h4>
+              <ul class="list space-y-3 mb-6">
+                <li class="flex space-x-2">
+                  <span class="text-lg text-secondary ml-2">
+                    <iconify-icon icon="heroicons:megaphone"></iconify-icon>
+                  </span>
+                  <span>قدرت کلام و اعتماد به نفس</span>
+                </li>
+                <li class="flex space-x-2">
+                  <span class="text-lg text-secondary ml-2">
+                    <iconify-icon icon="heroicons:user-group"></iconify-icon>
+                  </span>
+                  <span>تمرین عملی و کارگاهی</span>
+                </li>
+              </ul>
+              <a href="contact.html" class="btn px-8 py-[11px] bg-black text-white hover:bg-primary">ثبت‌نام</a>
+            </div>
+          </div>
+
+          <!-- دوره ۵ - نویسندگی -->
+          <div class="bg-white shadow-box5 rounded-[8px] transition duration-100 hover:shadow-box3">
+            <div class="course-thumb h-[297px] rounded-t-[8px] relative">
+              <img src="assets/images/all-img/e5.png" alt="کلاس نویسندگی" class="w-full h-full object-cover rounded-t-[8px]" />
+            </div>
+            <div class="course-content p-8">
+              <h4 class="text-xl mb-5 font-bold">
+                <a href="contact.html" class="hover:text-primary transition duration-150">
+                  نویسندگی (کودک، نوجوان، بزرگسال)
+                </a>
+              </h4>
+              <ul class="list space-y-3 mb-6">
+                <li class="flex space-x-2">
+                  <span class="text-lg text-secondary ml-2">
+                    <iconify-icon icon="heroicons:pencil-square"></iconify-icon>
+                  </span>
+                  <span>قدرت بیان و خلق اثر</span>
+                </li>
+                <li class="flex space-x-2">
+                  <span class="text-lg text-secondary ml-2">
+                    <iconify-icon icon="heroicons:user-group"></iconify-icon>
+                  </span>
+                  <span>گروه‌های آموزشی کوچک</span>
+                </li>
+              </ul>
+              <a href="contact.html" class="btn px-8 py-[11px] bg-black text-white hover:bg-primary">ثبت‌نام</a>
+            </div>
+          </div>
+
+          <!-- دوره ۶ - زبان‌های بین‌المللی -->
+          <div class="bg-white shadow-box5 rounded-[8px] transition duration-100 hover:shadow-box3">
+            <div class="course-thumb h-[297px] rounded-t-[8px] relative">
+              <img src="assets/images/all-img/e6.png" alt="زبان‌های بین‌المللی" class="w-full h-full object-cover rounded-t-[8px]" />
+            </div>
+            <div class="course-content p-8">
+              <h4 class="text-xl mb-5 font-bold">
+                <a href="contact.html" class="hover:text-primary transition duration-150">
+                  زبان‌های بین‌المللی
+                </a>
+              </h4>
+              <ul class="list space-y-3 mb-6">
+                <li class="flex space-x-2">
+                  <span class="text-lg text-secondary ml-2">
+                    <iconify-icon icon="heroicons:language"></iconify-icon>
+                  </span>
+                  <span>انگلیسی، فرانسه، آلمانی، عربی</span>
+                </li>
+                <li class="flex space-x-2">
+                  <span class="text-lg text-secondary ml-2">
+                    <iconify-icon icon="heroicons:user-group"></iconify-icon>
+                  </span>
+                  <span>تمرکز بر مکالمه</span>
+                </li>
+              </ul>
+              <a href="contact.html" class="btn px-8 py-[11px] bg-black text-white hover:bg-primary">ثبت‌نام</a>
+            </div>
+          </div>
+
+          <!-- دوره ۷ - نحو -->
+          <div class="bg-white shadow-box5 rounded-[8px] transition duration-100 hover:shadow-box3">
+            <div class="course-thumb h-[297px] rounded-t-[8px] relative">
+              <img src="assets/images/all-img/e7.png" alt="النحو بطعم الحکایة" class="w-full h-full object-cover rounded-t-[8px]" />
+            </div>
+            <div class="course-content p-8">
+              <h4 class="text-xl mb-5 font-bold">
+                <a href="contact.html" class="hover:text-primary transition duration-150">
+                  النحو بطعم الحکایة
+                </a>
+              </h4>
+              <ul class="list space-y-3 mb-6">
+                <li class="flex space-x-2">
+                  <span class="text-lg text-secondary ml-2">
+                    <iconify-icon icon="heroicons:book-open"></iconify-icon>
+                  </span>
+                  <span>عربی کاربردی از دل حکایت‌ها</span>
+                </li>
+                <li class="flex space-x-2">
+                  <span class="text-lg text-secondary ml-2">
+                    <iconify-icon icon="heroicons:user-group"></iconify-icon>
+                  </span>
+                  <span>ویژه طلاب و دانشجویان</span>
+                </li>
+              </ul>
+              <a href="contact.html" class="btn px-8 py-[11px] bg-black text-white hover:bg-primary">ثبت‌نام</a>
+            </div>
+          </div>
+
+          <!-- دوره ۸ - کلاس‌های کودکان -->
+          <div class="bg-white shadow-box5 rounded-[8px] transition duration-100 hover:shadow-box3">
+            <div class="course-thumb h-[297px] rounded-t-[8px] relative">
+              <img src="assets/images/all-img/e8.png" alt="کلاس‌های ویژه کودکان" class="w-full h-full object-cover rounded-t-[8px]" />
+            </div>
+            <div class="course-content p-8">
+              <h4 class="text-xl mb-5 font-bold">
+                <a href="contact.html" class="hover:text-primary transition duration-150">
+                  کلاس‌های ویژه کودکان
+                </a>
+              </h4>
+              <ul class="list space-y-3 mb-6">
+                <li class="flex space-x-2">
+                  <span class="text-lg text-secondary ml-2">
+                    <iconify-icon icon="heroicons:face-smile"></iconify-icon>
+                  </span>
+                  <span>کامپیوتر، قرآن، طراحی، زبان</span>
+                </li>
+                <li class="flex space-x-2">
+                  <span class="text-lg text-secondary ml-2">
+                    <iconify-icon icon="heroicons:user-group"></iconify-icon>
+                  </span>
+                  <span>یادگیری با بازی و خلاقیت</span>
+                </li>
+              </ul>
+              <a href="contact.html" class="btn px-8 py-[11px] bg-black text-white hover:bg-primary">ثبت‌نام</a>
+            </div>
+          </div>
+
+          <!-- دوره ۹ - باشگاه کتاب‌خوانی -->
+          <div class="bg-white shadow-box5 rounded-[8px] transition duration-100 hover:shadow-box3">
+            <div class="course-thumb h-[297px] rounded-t-[8px] relative">
+              <img src="assets/images/all-img/e9.png" alt="باشگاه کتاب‌خوانی" class="w-full h-full object-cover rounded-t-[8px]" />
+            </div>
+            <div class="course-content p-8">
+              <h4 class="text-xl mb-5 font-bold">
+                <a href="contact.html" class="hover:text-primary transition duration-150">
+                  باشگاه کتاب‌خوانی
+                </a>
+              </h4>
+              <ul class="list space-y-3 mb-6">
+                <li class="flex space-x-2">
+                  <span class="text-lg text-secondary ml-2">
+                    <iconify-icon icon="heroicons:book-open"></iconify-icon>
+                  </span>
+                  <span>دورهمی‌های کتاب‌خوانی</span>
+                </li>
+                <li class="flex space-x-2">
+                  <span class="text-lg text-secondary ml-2">
+                    <iconify-icon icon="heroicons:user-group"></iconify-icon>
+                  </span>
+                  <span>بحث و تبادل نظر فرهنگی</span>
+                </li>
+              </ul>
+              <a href="contact.html" class="btn px-8 py-[11px] bg-black text-white hover:bg-primary">ثبت‌نام</a>
+            </div>
+          </div>
+        </div>
+        <!-- ------------pagination------------ -->
+        <div class="pagination mt-14">
+          <ul class="flex justify-center space-x-3">
+            <li class="inline-flex">
+              <a
+                href="#"
+                class="ml-4 flex w-12 h-12 flex-col items-center justify-center bg-[#ECECEC] rounded font-semibold"
+              >
+                <iconify-icon
+                  icon="heroicons:chevron-double-right-20-solid"
+                  class="text-2xl"
+                ></iconify-icon>
+              </a>
+            </li>
+            <li class="inline-flex">
+              <a
+                href="#"
+                class="flex w-12 h-12 flex-col items-center justify-center bg-primary text-white rounded font-semibold"
+                >۱</a
+              >
+            </li>
+            <li class="inline-flex">
+              <a
+                href="#"
+                class="flex w-12 h-12 flex-col items-center justify-center bg-[#ECECEC] rounded font-semibold"
+                >۲</a
+              >
+            </li>
+            <li class="inline-flex">
+              <a
+                href="#"
+                class="flex w-12 h-12 flex-col items-center justify-center bg-[#ECECEC] rounded font-semibold"
+                >۳</a
+              >
+            </li>
+            <li class="inline-flex">
+              <a
+                href="#"
+                class="flex w-12 h-12 flex-col items-center justify-center bg-[#ECECEC] rounded font-semibold"
+                >۴</a
+              >
+            </li>
+            <li class="inline-flex">
+              <a
+                href="#"
+                class="flex w-12 h-12 flex-col items-center justify-center bg-[#ECECEC] rounded font-semibold"
+              >
+                <iconify-icon
+                  icon="heroicons:chevron-double-left-20-solid"
+                  class="text-2xl"
+                ></iconify-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- ------------pagination------------ -->
+      </div>
+    </div>
+    <!-- ----------Project-list----------- -->
+
+    <!-- --------------footer-------------- -->
+    <footer class="bg-black bg-[url('../images/all-img/footer-bg-1.png')] bg-cover bg-center bg-no-repeat">
+      <div class="section-padding container">
+        <div class="grid grid-cols-1 gap-7 md:grid-cols-2 lg:grid-cols-3">
+          <div class="single-footer">
+            <div class="lg:max-w-[270px]">
+              <a href="#" class="mb-10 block">
+                <img src="assets/images/logo/logoAshiane.jpg" alt="لوگو مدرسه علمیه" class="w-[170px] h-auto"/>
+              </a>
+              <p>بنیاد علمی و فرهنگی آشیانه جوان، همراه جوانان در مسیر رشد و شکوفایی</p>
+              <ul class="flex space-x-4 pt-8">
+                <li>
+                  <a href="#" target="_blank" class="flex h-12 w-12 flex-col items-center justify-center rounded bg-white bg-opacity-[0.08] text-2xl text-white transition hover:bg-primary hover:text-white">
+                    <iconify-icon icon="bxl:linkedin"></iconify-icon>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://t.me/ElifAlgo" target="_blank" class="flex h-12 w-12 flex-col items-center justify-center rounded bg-white bg-opacity-[0.08] text-2xl text-white transition hover:bg-primary hover:text-white">
+                    <iconify-icon icon="fa6-brands:telegram"></iconify-icon>
+                  </a>
+                </li>
+                <li>
+                  <a href="tel:09331535511" target="_blank" class="flex h-12 w-12 flex-col items-center justify-center rounded bg-white bg-opacity-[0.08] text-2xl text-white transition hover:bg-primary hover:text-white">
+                    <iconify-icon icon="fa6-solid:phone"></iconify-icon>
+                  </a>
+                </li>
+                <li>
+                  <a href="mailto:MHoseini.Developer@gmail.com" target="_blank" class="flex h-12 w-12 flex-col items-center justify-center rounded bg-white bg-opacity-[0.08] text-2xl text-white transition hover:bg-primary hover:text-white">
+                    <iconify-icon icon="fa6-solid:envelope"></iconify-icon>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="single-footer">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+              <div class="flex-1 lg:flex-none md:ml-[80px]">
+                <h4 class="mb-8 text-2xl font-bold text-white">دسترسی سریع</h4>
+                <ul class="list-item space-y-5">
+                  <li><a href="#">خانه</a></li>
+                  <li><a href="#">درباره ما</a></li>
+                  <li><a href="#">دوره‌ها</a></li>
+                  <li><a href="#">وبلاگ</a></li>
+                  <li><a href="#">تماس با ما</a></li>
+                </ul>
+              </div>
+              <div class="flex-1 lg:flex-none">
+                <h4 class="mb-8 text-2xl font-bold text-white">اطلاعات تماس</h4>
+                <ul class="list-item space-y-5">
+                  <li>
+                    <a>آدرس:</a>
+                    <br>
+                    <a href="#">قم، خیابان ایکس</a>
+                    <br>
+                    <a>کوچه ۹، پلاک ۱۶</a>
+                  </li>
+                  <li>
+                    <a href="#">تلفن:</a> <br>
+                    <a href="#">۰۹۳۳۱۵۳۵۵۱۱</a>
+                  </li>
+                  <li>
+                    <a href="#">آیدی ایتا:  @ElifLIfe</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>          
+          <div class="single-footer">
+            <h4 class="mb-8 text-2xl font-bold text-white">خبرنامه</h4>
+            <div class="mb-8">
+              برای دریافت آخرین اخبار، برنامه‌ها و مقالات مدرسه، 
+              <span class="text-primary underline">ایمیل</span>
+              خود را وارد کنید.
+            </div>
+            <div class="mb-4 flex items-center rounded-md bg-white py-[10px] pl-[10px] pl-6 shadow-e1 fd">
+              <div class="flex-1">
+                <input type="text" placeholder="ایمیل خود را وارد کنید ..." class="border-none focus:ring-0" />
+              </div>
+              <div class="flex-none">
+                <span><img src="assets/images/icon/mail.svg" alt="ایمیل" /></span>
+              </div>
+            </div>
+            <button class="btn btn-primary block w-full text-center">اشتراک</button>
+          </div>
+        </div>
+      </div>
+      <div class="container border-t border-white border-opacity-[0.1] py-8 text-center text-base">
+        &copy; تمامی حقوق محفوظ است 2026 
+      </div>
+    </footer>
+    <!-- --------------footer-------------- -->
+
+    <div class="rt-mobile-menu-overlay"></div>
+    <!---------------- scripts ---------------->
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/rt-plugins.js"></script>
+    <script src="https://unpkg.com/phosphor-icons"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.0/iconify-icon.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="assets/js/app.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+  </body>
+</html>
+         
