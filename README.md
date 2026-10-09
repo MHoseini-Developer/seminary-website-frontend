@@ -20,7 +20,7 @@ A responsive and user-friendly frontend website for a seminary school, built to 
 
 ### Homepage
 
-![Seminary Website Homepage](screenshots/homepage.png)
+![Seminary Website Homepage](screenshots/HomePage.png)
 
 ## 🚀 Getting Started
 
