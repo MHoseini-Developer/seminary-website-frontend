@@ -2,6 +2,12 @@
 
 A responsive and user-friendly frontend website for a seminary school, built to present educational content and provide visitors with a clean and accessible browsing experience.
 
+## 🌐 Live Demo
+
+**View Website:** [Seminary Website — Live Demo](https://mhoseini-developer.github.io/seminary-website-frontend/)
+
+Explore the website to see the design and user interface in action.
+
 ## ✨ Features
 
 * Responsive website layout
@@ -52,6 +58,12 @@ Frontend Developer
 # وب‌سایت مدرسه علمیه
 
 یک وب‌سایت واکنش‌گرا و کاربرپسند برای مدرسه علمیه که با هدف ارائه محتوای آموزشی و فراهم کردن تجربه‌ای ساده و مناسب برای بازدیدکنندگان طراحی و توسعه داده شده است.
+
+## 🌐 پیش‌نمایش آنلاین
+
+**مشاهده وب‌سایت:** [دموی آنلاین وب‌سایت مدرسه علمیه](https://mhoseini-developer.github.io/seminary-website-frontend/)
+
+برای مشاهده طراحی و رابط کاربری وب‌سایت، روی لینک بالا کلیک کنید.
 
 ## ✨ امکانات
 
